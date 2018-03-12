@@ -14,7 +14,7 @@ public class BinaryGapTest {
     @Test
     @Parameters
     public void solutionTest(int N, int result) {
-        assertEquals(binaryGap.solution(N), result);
+        assertEquals(result, binaryGap.solution(N));
     }
     private Object parametersForSolutionTest() {
         return new Object[]{
@@ -22,7 +22,7 @@ public class BinaryGapTest {
                 new Object[]{529, 4},
                 new Object[]{15, 0},
                 new Object[]{1041, 5},
-                new Object[]{51712, 2}
+                new Object[]{51712, 2 }
         };}
 
 }
