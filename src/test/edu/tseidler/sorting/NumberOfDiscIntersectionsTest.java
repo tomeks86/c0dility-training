@@ -19,7 +19,9 @@ public class NumberOfDiscIntersectionsTest {
     public Object[] parametersForShouldSolveProblem() {
         return new Object[] {
                 new Object[] {new int[] {1, 5, 2, 1, 4, 0}, 11},
-                new Object[] {new int[] {0, 0, 0, 0, 0, 0}, 0}
+                new Object[] {new int[] {0, 0, 0, 0, 0, 0}, 0},
+                new Object[] {new int[] {}, 0},
+                new Object[] {new int[] {1, 0, 0, 3}, 4}
         };
     }
 }
